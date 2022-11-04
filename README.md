@@ -6,7 +6,7 @@
   > nome_da_tela
     - index.html
     - style.css
-    - script.js
+    - script.js (se necessário)
  ```
  #### Imagens
  - Caso precisarem usar imagens adcionem na pasta img que se encontra dentro da pasta assets (assets/img/)
