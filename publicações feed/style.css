@@ -1,0 +1,94 @@
+h3 {
+    color: blue;
+    margin: 0px;
+}
+.post {
+    width: 1206px;
+    height: 150px;  
+    display: flex;
+    border: solid 1px #043873;
+    border-top: none;
+}
+.post p {
+    margin: 1px;
+}
+.avatarImagem {
+    width: 110px;
+    height: 110px;
+    margin: 20px;
+    margin-left: 20px;
+}
+.postInfoLeft {
+    height: 110px;
+    width: 120px;
+    font-size: 12px;
+    line-height: 16px;
+    display:flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.postInfoRight {
+    height: 110px;
+    width: 695px;
+    font-size: 12px;
+    line-height: 16px;
+    display:flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.postStatus {
+    width: 110px;
+    height: 110px;
+    margin-top: 5px;
+}
+.postsFeed {
+    max-width: 1206px;
+    height: 629px;
+}
+.postsFeed ul {
+    display: block;
+    margin-top: 0px;
+    margin-left: -41px;
+    justify-content: left;
+}
+.postsFeed li{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 0px;
+}
+.postsFeed li a {
+    text-decoration: none;
+    transform: opacity 0.3s ease-in-out;
+}
+.postsFeed li a:hover{
+    background-color: #C4DEFD;
+    opacity: 0.8;
+}
+.postsFeed ul,
+.postsFeed li {
+    list-style: none;
+}
+.postArea {
+    max-width: 1206px;
+    justify-content: center;
+    border: solid #043873;
+    box-shadow: 10px 10px 10px gray;
+} 
+.postHeader {
+    display: flex;
+    background-color: #043873;
+    align-items: center;
+}
+.postHeader h2 {
+    margin-left: 15px;
+    color: #fff;
+    font-style: bold;
+}
+.postHeader p{
+    align-items: right;
+    padding-left: 900px;
+}
+
