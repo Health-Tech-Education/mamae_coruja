@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylelogin.css">
+    <title>Tela de Login</title>
+</head>
+
+<body>
+    <main class="container">
+        <h1>Login</h1>
+        <h2>Entre agora mesmo no Mamãe Coruja</h2>
+        <form action="">
+            <div class="input-field">
+                <p class="underline">E-mail</p>
+                <input type="email" name="email" id="email" placeholder="Digite seu E-mail">
+                <img class="input-icon" src="./img/icon-email.svg" alt="" width="30px">
+            </div>
+            <div class="input-field">
+                <p class="underline">Senha</p>
+                <input type="password" name="password" id="password" placeholder="Digite sua senha">
+                <img class="input-icon" src="./img/icon-password.svg" alt=""  width="30px">
+                <small id="recovery-password">Esqueceu sua senha? <a href="#">Clique aqui</a></small>
+            </div>
+            <button class="butao" type="submit">Entrar</button>
+        </form>
+        <a href="#">
+            <button id="connect-google">
+                <img src="./img/google.png" alt="google icon" width="20px">
+                Conecte-se com google
+            </button>
+        </a>
+        <div class="cadastre-se">
+            <a href="telacadastro.html">Cadastre-se aqui</a>
+        </div>
+    </main>
+</body>
+
+</html>

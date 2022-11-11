@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: linear-gradient(180deg, #043873 0%, #043873 0.01%, #01DCA2 100%);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 350px;
+    min-height: 40vh;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0);
+    border-radius: 10px;
+    text-align: center;
+}
+
+main {
+    background-image: linear-gradient(180deg, #FFFFFF 6.01%, rgba(4, 56, 115, 0.91) 137.98%);
+}
+
+main h1 {
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+form {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+
+.input-field {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+/* .underline {
+    font-size: 20px;
+} */
+
+.input-field input {
+    width: 100%;
+    height: 40px;
+    padding: 10px 50px 10px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 5px;
+    
+}
+
+.cadastre-se  {
+    margin-top: 20px;
+    width: 100%;
+    
+    background-color: rgba(4, 56, 115, 0.80);  
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.cadastre-se:hover {
+    background-color: rgba(4, 56, 115, 0.80);
+}
+
+.cadastre-se:active {
+    background-color: rgba(4, 56, 115, 0.90);
+}
+
+.cadastre-se a{
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+h2{
+    font-size: 15px;
+    font-weight: unset;
+}
+.input-icon {
+    position: absolute;
+    top: 30px;
+    right: 15px;
+}
+
+#recovery-password {
+    margin-top: 5px;
+}
+
+form button {
+    height: 40px;
+    background-color: rgba(4, 56, 115, 0.80);
+    color: #FFFFFF;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    
+}
+
+form button:hover{
+    background-color: rgba(4, 56, 115, 0.70);
+}
+
+form button:active{
+    background-color: rgba(4, 56, 115, 0.90);
+}
+
+
+#connect-google {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 35px;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+#connect-google img {
+    margin-right: 10px;
+}
+
+/* .input-field {
+    outline: none;
+    font-size: 0.9rem;
+    color: rgb(0, 0, 0, 0.7);
+}
+
+form input[type=button] {
+    margin-top: 2rem;
+    padding: 0.4rem;
+    background-color: #043873;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.input-field {
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.input-field input {
+    border-radius: 10px;
+    width: 300px;
+    height: 20px;
+    padding: 20px;
+}
+
+h2 {
+    font-weight: unset;
+}
+
+.underline {
+    font-weight: bold;
+    text-align: left;
+}
+
+.gmail {
+    border-radius: 10px;
+} */
