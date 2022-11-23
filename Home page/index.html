@@ -1,128 +1,188 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-  <!--  -->
-  <link rel="stylesheet" href="./style.css">
-  <title>NavBar</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <!--  -->
+    <link rel="stylesheet" href="./style.css">
+    <title>NavBar</title>
 </head>
 <body>
-  <nav id="navbar">
-    <!-- imagem com link para a home -->
-    <a href="#">
-      <img src="../assets/img/logo.svg" alt="logo health tech education" height="62px">
-    </a>
+    <nav id="navbar">
+        <!-- imagem com link para a home -->
+        <a href="#">
+            <img src="../assets/img/logo.svg" alt="logo health tech education" height="62px">
+        </a>
 
-    <!-- elemento para animação responsiva -->
-    <input id="menu-toggle" type="checkbox" />
-    <label class='menu-button-container' for="menu-toggle">
-      <div class='menu-button'></div>
-    </label>
+        <!-- elemento para animação responsiva -->
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+        </label>
 
-    <!-- menu em lista com os botoes dos links -->
-    <ul id="menu-nav">
-      <li class="menu-item-nav"><a href="#">Início</a></li>
-      <li class="menu-item-nav"><a href="#">Status</a></li>
-      <li class="menu-item-nav"><a href="#">Agenda</a></li>
-      <li class="menu-item-nav"><a href="#">Perfil</a></li>
-      <li class="menu-item-nav"><a href="#">Sair</a></li>
-    </ul>
-  </nav>
-  <!-- Sessão destinada a primeira div, que contem o conheça o mamãe coruja e o video de tutorial (ainda precisamos adicionar o video tutorial) -->
-  <div class="backgroundMain">
-    <section class="defaultLight">
-      <div class="backgroundMainLight">
-        <div class="sectionDesc"><h1>Conheça o Mamãe coruja</h1>
-        <p>Fique por dentro e entenda como funciona cada ferramenta deste site</p>
-        <div class="buttonDefaultPos"><button class="buttonDefault"><a href="#">Começe agora!</a></button>
-        </div>  
-        </div>
-        <div class="sectionMedia"><iframe class="video"width="740" height="480" src="https://www.youtube.com/embed/Yta-Uh0wccI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;  gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-      </div>
-      <!-- Sessão destinada a segunda div, que contem o Esteja conectada. -->
-      <div class="backgroundMainLight">
-        <div class="sectionImg"><img class="imgRede" src="../assets/img/working-together.svg" alt="rede mamãe coruja">
-        </div>
-        <div class="sectionDesc"><h1>Esteja conectada!</h1>
-        <p>Com o mamãe coruja, tenha uma visão geral de como deveria estar e compartilhe suas experiências com outras mamãe e especialistas, Você também pode tirar dúvidas e  marcar consultas tudo em um só lugar.</p>
-        <div class="buttonDefaultPos"><button class="buttonDefault"><a href="#">Teste agora!</a></button></div>
-        </div>
-      </div>
-    </section>
-  </div>
-        <!-- Sessão destinada a terceira div, que contem o conheça sua agenda e uma mini agenda ao lado (falta adicionar a agenda) -->
-      <div class="backgroundMain2">
-        <section class="defaultBlue">
-          <div class="backgroundMainBlue">
-            <div class="sectionDesc"><h1>Conheça sua Agenda</h1>
-            <p>Use a sua agenda para definir lembretes, avisos, datas de consultas ou exames.</p>
-            <div class="buttonDefaultPos"><button class="buttonDefault"><a href="#">Começe agora!</a></button>
-            </div>  
-            </div>
-            <div class="sectionMedia"></div>
-          </div>
-        </section>
-      </div>
-      <!-- Sessão destinada a quarta div, que contem as informações do cartão de vacina virtual (sugestão: alterar a imagem do cartão de vacina) -->
-      <div class="backgroundMain">
+        <!-- menu em lista com os botoes dos links -->
+        <ul id="menu-nav">
+            <li class="menu-item-nav"><a href="#">Início</a></li>
+            <li class="menu-item-nav"><a href="#">Status</a></li>
+            <li class="menu-item-nav"><a href="#">Agenda</a></li>
+            <li class="menu-item-nav"><a href="#">Perfil</a></li>
+            <li class="menu-item-nav"><a href="#">Sair</a></li>
+        </ul>
+    </nav>
+    <!-- Sessão destinada a primeira div, que contem o conheça o mamãe coruja e o video de tutorial (ainda precisamos adicionar o video tutorial) -->
+    <div class="backgroundMain">
         <section class="defaultLight">
-          <div class="backgroundMainLight">
-            <div><img class="sectionImgCartao" src="../assets/img/cartao-vacina.png" alt="">
+            <div class="backgroundMainLight">
+                <div class="sectionDesc"><h1>Conheça o Mamãe coruja</h1>
+                    <p>Fique por dentro e entenda como funciona cada ferramenta deste site</p>
+                    <div class="buttonDefaultPos"><button class="buttonDefault"><a href="#">Começe agora!</a></button>
+                    </div>
+                </div>
+                <div class="sectionMedia"><iframe class="video"width="740" height="480" src="https://www.youtube.com/embed/Yta-Uh0wccI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;  gyroscope; picture-in-picture" allowfullscreen></iframe></div>
             </div>
-            <div class="sectionDesc"><h1>Seu cartão de vacinação sempre atualizado</h1>
-              <p>Customize seu cartão de vacinação (Ou de seu bebê), adicionando vacinas, informações, lotes e datas.</p>
-              <div class="buttonDefaultPos">
-              <button class="buttonDefault">
-              <a href="#">Começe agora!</a>
-              </button>
-              </div>  
+            <!-- Sessão destinada a segunda div, que contem o Esteja conectada. -->
+            <div class="backgroundMainLight">
+                <div class="sectionImg"><img class="imgRede" src="../assets/img/working-together.svg" alt="rede mamãe coruja">
+                </div>
+                <div class="sectionDesc"><h1>Esteja conectada!</h1>
+                    <p>Com o mamãe coruja, tenha uma visão geral de como deveria estar e compartilhe suas experiências com outras mamãe e especialistas, Você também pode tirar dúvidas e  marcar consultas tudo em um só lugar.</p>
+                    <div class="buttonDefaultPos"><button class="buttonDefault"><a href="#">Teste agora!</a></button></div>
+                </div>
             </div>
-          </div>
+        </section>
+    </div>
+    <!-- Sessão destinada a terceira div, que contem o conheça sua agenda e uma mini agenda ao lado (falta adicionar a agenda) -->
+    <div class="backgroundMain2">
+        <section class="defaultBlue">
+            <div class="backgroundMainBlue">
+                <div class="sectionDesc"><h1>Conheça sua Agenda</h1>
+                    <p>Use a sua agenda para definir lembretes, avisos, datas de consultas ou exames.</p>
+                    <div class="buttonDefaultPos"><button class="buttonDefault"><a href="#">Começe agora!</a></button>
+                    </div>
+                </div>
+                <div class="sectionMedia"></div>
+            </div>
+        </section>
+    </div>
+    <!-- Sessão destinada a quarta div, que contem as informações do cartão de vacina virtual (sugestão: alterar a imagem do cartão de vacina) -->
+    <div class="backgroundMain">
+        <section class="defaultLight">
+            <div class="backgroundMainLight">
+                <div><img class="sectionImgCartao" src="../assets/img/cartao-vacina.png" alt="">
+                </div>
+                <div class="sectionDesc"><h1>Seu cartão de vacinação sempre atualizado</h1>
+                    <p>Customize seu cartão de vacinação (Ou de seu bebê), adicionando vacinas, informações, lotes e datas.</p>
+                    <div class="buttonDefaultPos">
+                        <button class="buttonDefault">
+                            <a href="#">Começe agora!</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
         </section>
     </div>
     <!-- Sessão destinada a quinta div, que contem o botão para um formulário a ser respondido -->
     <div class="backgroundMain2">
-      <section class="defaultBlue">
-        <div class="backgroundMainBlueCenter">
-          <div class="sectionDescCenter"><h1>Sua segurança em primeiro lugar.</h1>
-          <p>Estamos sempre trabalhando em soluções para melhorar a vida das gestantes e de seus bebês ao redor do mundo, estamos com ideias futuras e gostariamos de sua opnião.</p>
-          <div class="buttonDefaultPos"><button class="buttonDefault"><a href="#">Responda o Formulário!</a></button>
-          </div>  
-          </div>
-        </div>
-      </section>
-    </div>
-      <!-- Sessão destinada a sexta div, que contem logos dos apoiadores, que podem redirecionar para seus sites -->
-      <div class="backgroundMain">
-        <section class="defaultLight">
-          <div class="backgroundMainLightCenter">
-            <div class="sectionDescCenter"><h1>Nossos Apoiadores:</h1>
-              <a href="https://portal.novaroma.edu.br/"><img src="../assets/img/Logo-Nova-Roma.png" alt="Logo Nova Roma"></a>
+        <section class="defaultBlue">
+            <div class="backgroundMainBlueCenter">
+                <div class="sectionDescCenter"><h1>Sua segurança em primeiro lugar.</h1>
+                    <p>Estamos sempre trabalhando em soluções para melhorar a vida das gestantes e de seus bebês ao redor do mundo, estamos com ideias futuras e gostariamos de sua opnião.</p>
+                    <div class="buttonDefaultPos"><button class="buttonDefault"><a href="#">Responda o Formulário!</a></button>
+                    </div>
+                </div>
             </div>
-          </div>
+        </section>
+    </div>
+    <!-- Sessão destinada a sexta div, que contem logos dos apoiadores, que podem redirecionar para seus sites -->
+    <div class="backgroundMain">
+        <section class="defaultLight">
+            <div class="backgroundMainLightCenter">
+                <div class="sectionDescCenter"><h1>Nossos Apoiadores:</h1>
+                    <a href="https://portal.novaroma.edu.br/"><img src="../assets/img/Logo-Nova-Roma.png" alt="Logo Nova Roma"></a>
+                </div>
+            </div>
         </section>
     </div>
     <!-- Sessão destinada a setima div, que contem links direcionaveis para possiveis downloads do aplicativo (ainda a ser desenvolvido) -->
     <div class="backgroundMain2">
-      <section class="defaultBlue">
-        <div class="backgroundMainBlueCenter">
-          <div class="sectionDescCenter"><h1>Teste agora o Mamãe coruja.</h1>
-          <p>Comece agora gratuitamente.</p>
-          <div class="buttonDefaultPos"><button class="buttonDefault"><a href="#">Baixe agora</a></button>
-          </div>  
-          <div class="sectionDownloadLogo">
-            <a class="buttonDownload" href="#"><img src="../assets/img/apple-logo.svg" alt="logo apple"></a>
-            <a class="buttonDownload" href="#"><img src="../assets/img/windows-logo.svg" alt="logo windows"></a>
-            <a class="buttonDownload" href="#"><img src="../assets/img/android-logo.svg" alt="logo android"></a>
-          </div>
-          </div>
-        </div>
-      </section>
+        <section class="defaultBlue">
+            <div class="backgroundMainBlueCenter">
+                <div class="sectionDescCenter"><h1>Teste agora o Mamãe coruja.</h1>
+                    <p>Comece agora gratuitamente.</p>
+                    <div class="buttonDefaultPos">
+                        <button class="buttonDefault">
+                            <a href="#">Baixe agora</a>
+                        </button>
+                    </div>
+                    <div class="sectionDownloadLogo">
+                        <a class="buttonDownload" href="#">
+                            <img src="../assets/img/apple-logo.svg" alt="logo apple">
+                        </a>
+                        <a class="buttonDownload" href="#">
+                            <img src="../assets/img/windows-logo.svg" alt="logo windows">
+                        </a>
+                        <a class="buttonDownload" href="#">
+                            <img src="../assets/img/android-logo.svg" alt="logo android">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- rodape -->
+            <footer>
+                <!-- parte inical do rodape -->
+                <div id="footer-top">
+                    <!-- divs que forma as colunas -->
+                    <div class="column-footer">
+                        <h4><img src="../assets/img/logo-product.png" alt="logo mamãe coruja"> Mamãe Coruja</h4>
+                        <p>
+                            O mamãe coruja foi criado para auxiliar mães de primeira viagem a cuidar de seus filhos com segurança.
+                        </p>
+                    </div>
+                    <div class="column-footer">
+                        <h4>Visão Geral</h4>
+                        <a href="#">Principal</a>
+                    </div>
+                    <div class="column-footer">
+                        <h4>Recursos</h4>
+                        <a href="#">Blog</a>
+                        <a href="#">Guia e Tutorial</a>
+                        <a href="#">Preciso de ajuda</a>
+                    </div>
+                    <div class="column-footer">
+                        <h4>Corporativo</h4>
+                        <a href="#">Sobre nós</a>
+                        <a href="#">Carreira</a>
+                        <a href="#">Midias sociais</a>
+                    </div>
+                    <div class="column-footer">
+                        <h4>Comece agora</h4>
+                        <p>Inicie de forma gratuita</p>
+                        <a href="#">
+                            <button class="buttonDefault">
+                                Comece hoje
+                                <img src="../assets/img/arrow.svg" alt="arrow right">
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <!-- faixa estreita no final do rodape -->
+                <div id="footer-bottom">
+                    <p>Termos e Privacidade</p>
+                    <p>Segurança</p>
+                    <p>Status</p>
+                    <p>&#169; Health Education Technology</p>
+                    <div>
+                        <img src="../assets/img/facebook.svg" alt="facebook icon">
+                        <img src="../assets/img/twitter.svg" alt="twitter icon">
+                        <img src="../assets/img/linkedin.svg" alt="linkedin icon">
+                    </div>
+                </div>
+            </footer>
+        </section>
     </div>
 </body>
