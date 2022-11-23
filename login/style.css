@@ -1,0 +1,101 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+#content {
+    background-color: #043873;
+    width: 100%;
+    height: calc(100% - 87px);
+    background-image: linear-gradient(#043873, #01DCA2);
+    display: flex;
+
+}
+
+#banner-pre-login {
+    display: flex;
+    margin: auto;
+    background-image: url(assets/img/arcs.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    justify-content: center;
+}
+
+.image-child img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-text {
+    color: white;
+}
+
+.welcome-message {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 77px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#teste-mamae-coruja {
+    background-color: #043873;
+    padding: 15px;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#teste-mamae-coruja:after {
+    content: url(/assets/img/vector.svg);
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+}
+
+
+.banner-child {
+    padding: 70px;
+}
+
+.text-child {
+    margin: auto 0;
+}
+
+#header {
+    background-color: #043873;
+    padding: 16px 220px;
+
+}
+
+.description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
