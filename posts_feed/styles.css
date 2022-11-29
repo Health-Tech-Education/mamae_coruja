@@ -99,7 +99,7 @@ main {
 aside {
     height: 785px;
     max-width: 400px;
-    width: 30%;
+    width: 20%;
     background-color: #FFFFFF;
     border-radius: 5px;
     position:relative;
@@ -265,7 +265,7 @@ aside {
 }
 
 /* responsividade da barra laterao e navbar */
-@media (max-width: 600px) {
+@media (max-width: 650px) {
     .menu-button-container {
       display: flex;
     }
