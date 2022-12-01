@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <!--  -->
+    <link rel="stylesheet" href="./styles.css">
+    <title>Calendário</title>
+</head>
+<body>
+    <nav id="navbar">
+        <!-- imagem com link para a home -->
+        <a href="#">
+            <img src="../assets/img/logo.svg" alt="logo health tech education" height="40px">
+        </a>
+
+        <!-- elemento para animação responsiva -->
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+        </label>
+
+        <!-- menu em lista com os botoes dos links -->
+        <ul id="menu-nav">
+            <li class="menu-item-nav"><a href="#">Início</a></li>
+            <li class="menu-item-nav"><a href="#">Status</a></li>
+            <li class="menu-item-nav"><a href="#">Agenda</a></li>
+            <li class="menu-item-nav"><a href="#">Perfil</a></li>
+            <li class="menu-item-nav"><a href="#">Sair</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="calendar">
+            <div class="month">
+                <img id="arrow-mouth-left" src="../assets/img/arrow-calendar.svg" alt="">
+                <p id="mouth"></p>
+                <img id="arrow-mouth-right" src="../assets/img/arrow-calendar.svg" alt="">
+                <img id="arrow-year-left" src="../assets/img/arrow-calendar.svg" alt="">
+                <p id="year"></p>
+                <img id="arrow-year-right" src="../assets/img/arrow-calendar.svg" alt="">
+
+
+            </div>
+            <div class="days">
+                <span>Sun</span>
+                <span>Mon</span>
+                <span>Tue</span>
+                <span>Wed</span>
+                <span>Thu</span>
+                <span>Fri</span>
+                <span>Sat</span>
+            </div>
+            <div class="dates">
+                <button id="1" onclick="teste(1)">
+                    <time>1</time>
+                </button>
+                <button id="2" onclick="teste(2)">
+                    <time>2</time>
+                </button>
+                <button id="3" onclick="teste(3)">
+                    <time>3</time>
+                </button>
+                <button id="4" onclick="teste(4)">
+                    <time>4</time>
+                </button>
+                <button id="5" onclick="teste(5)">
+                    <time>5</time>
+                </button>
+                <button id="6" onclick="teste(6)">
+                    <time>6</time>
+                </button>
+                <button id="7" onclick="teste(7)">
+                    <time>7</time>
+                </button>
+                <button id="8" onclick="teste(8)">
+                    <time>8</time>
+                </button>
+                <button id="9" onclick="teste(9)">
+                    <time>9</time>
+                </button>
+                <button id="10" onclick="teste(10)">
+                    <time>10</time>
+                </button>
+                <button id="11" onclick="teste(11)">
+                    <time>11</time>
+                </button>
+                <button id="12" onclick="teste(12)">
+                    <time>12</time>
+                </button>
+                <button id="13" onclick="teste(13)">
+                    <time>13</time>
+                </button>
+                <button id="14" onclick="teste(14)">
+                    <time>14</time>
+                </button>
+                <button id="15" onclick="teste(15)">
+                    <time>15</time>
+                </button>
+                <button id="16" onclick="teste(16)">
+                    <time>16</time>
+                </button>
+                <button id="17" onclick="teste(17)">
+                    <time>17</time>
+                </button>
+                <button id="18" onclick="teste(18)">
+                    <time>18</time>
+                </button>
+                <button id="19" onclick="teste(19)">
+                    <time>19</time>
+                </button>
+                <button id="20" onclick="teste(20)">
+                    <time>20</time>
+                </button>
+                <button id="21" onclick="teste(21)">
+                    <time>21</time>
+                </button>
+                <button id="22" onclick="teste(22)">
+                    <time>22</time>
+                </button>
+                <button id="23" onclick="teste(23)">
+                    <time>23</time>
+                </button>
+                <button id="24" onclick="teste(24)">
+                    <time>24</time>
+                </button>
+                <button id="25" onclick="teste(25)">
+                    <time>25</time>
+                </button>
+                <button id="26" onclick="teste(26)">
+                    <time>26</time>
+                </button>
+                <button id="27" onclick="teste(27)">
+                    <time>27</time>
+                </button>
+                <button id="28" onclick="teste(28)">
+                    <time>28</time>
+                </button>
+                <button id="29" onclick="teste(29)">
+                    <time>29</time>
+                </button>
+                <button id="30" onclick="teste(30)">
+                    <time>30</time>
+                </button>
+                <button id="31" onclick="teste(31)">
+                    <time>31</time>
+                </button>
+            </div>
+        </div>
+        <div id="modal">
+            <div id="center">
+                <img id="close-modal" src="../assets/img/close.svg" alt="close button">
+                <div id="new-appointment">
+                    <h4>Novo compromisso</h4>
+                    <form action="">
+                        <div>
+                            <p id="new-appointment-date">13 de Janeiro de 2022</p>
+                            <input type="time" name="" id="">
+                        </div>
+                        <input type="text" placeholder="Informe o compromisso">
+                    </form>
+                </div>
+                <ul id="appointments">
+                    <li>
+                        <h4>Ir ao medico</h4>
+                        <p> 13 de Janeiro de 2022 ás 13:00</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
