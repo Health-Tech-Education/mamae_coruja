@@ -16,22 +16,28 @@
     <nav id="navbar">
         <!-- imagem com link para a home -->
         <a href="#">
-            <img src="../assets/img/logo.svg" alt="logo health tech education" height="62px">
+            <img id="logo" src="../assets/img/logo.svg" alt="logo health tech education" height="60px">
         </a>
-
         <!-- elemento para animação responsiva -->
         <input id="menu-toggle" type="checkbox" />
         <label class='menu-button-container' for="menu-toggle">
             <div class='menu-button'></div>
         </label>
-
         <!-- menu em lista com os botoes dos links -->
         <ul id="menu-nav">
-            <li class="menu-item-nav"><a href="#">Início</a></li>
-            <li class="menu-item-nav"><a href="#">Status</a></li>
-            <li class="menu-item-nav"><a href="#">Agenda</a></li>
-            <li class="menu-item-nav"><a href="#">Perfil</a></li>
-            <li class="menu-item-nav"><a href="#">Sair</a></li>
+            <li class="menu-item-nav">
+                <a href="#">
+                    <button id="button-login">Login</button>
+                </a>
+            </li>
+            <li class="menu-item-nav">
+                <a href="#">
+                    <button id="button-cadastro">
+                        Cadastro
+                        <img src="../assets/img/arrow.svg" alt="arrow">
+                    </button>
+                </a>
+            </li>
         </ul>
     </nav>
     <!-- Sessão destinada a primeira div, que contem o conheça o mamãe coruja e o video de tutorial (ainda precisamos adicionar o video tutorial) -->
