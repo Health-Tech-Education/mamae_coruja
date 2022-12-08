@@ -509,4 +509,14 @@ footer {
         width: 100%;
         height: 500px;
     }
+
+    .sectionDesc h1,
+    .backgroundMainBlueCenter h1,
+    .sectionDescCenter h1 {
+        font-size: 48px;
+    }
+
+    .backgroundMainBlueCenter {
+        width: 100%;
+    }
 }
