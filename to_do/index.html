@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Lista de Afazeres</title>
+</head>
+<body>
+    <nav id="navbar">
+        <!-- imagem com link para a home -->
+        <a href="#">
+            <img src="../assets/img/logo.svg" alt="logo health tech education" height="40px">
+        </a>
+
+        <!-- elemento para animação responsiva -->
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+        </label>
+
+        <!-- menu em lista com os botoes dos links -->
+        <ul id="menu-nav">
+            <li class="menu-item-nav"><a href="#">Início</a></li>
+            <li class="menu-item-nav"><a href="#">Status</a></li>
+            <li class="menu-item-nav"><a href="#">Agenda</a></li>
+            <li class="menu-item-nav"><a href="#">Perfil</a></li>
+            <li class="menu-item-nav"><a href="#">Sair</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Como você está indo até agora ?</h1>
+        <div id="tasks">
+            <div class="notes">
+                <h2 id="title-notes">Lembretes</h2>
+                <div class="tasks-container">
+                    <h3>Adicione novos lembretes ou lista de afazeres</h3>
+                    <div>
+                        <p id="new-task">Add new task</p>
+                        <p id="task">
+                            Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmodtempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniam, quisnostrud exercitation ullamco laboris
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="notes">
+                <div id="title-todo">
+                    <h2>Lista de afazeres</h2>
+                </div>
+                <div class="tasks-container">
+                    <h3>Adicione tarefas que precisam ser feitas e veja as que você já completou</h3>
+                    <div id="todo-container">
+                        <ul id="todo-list">
+                            <li>
+                                <input type="checkbox" name="" id="">
+                                <p>visitar obstetra: 15 de julho</p>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="" id="">
+                                <p>visitar obstetra: 15 de julho</p>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="" id="">
+                                <p>visitar obstetra: 15 de julho</p>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="" id="">
+                                <p>visitar obstetra: 15 de julho</p>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="" id="">
+                                <p>visitar obstetra: 15 de julho</p>
+                            </li>
+                        </ul>
+                        <div id="todo-details">
+                            <p>
+                                Adicione notas para cada lista de tarefas
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="general-analysis">
+            <div id="title-analysis">
+                <h2>Lista de afazeres</h2>
+            </div>
+            <div id="statistics">
+                <h3>
+                    informações sobre a gravidez em relação ao estado atual da gravida
+                </h3>
+                <ul id="list-date">
+                    <li>
+                        <h6>Maio</h6>
+                        <ul class="list-days">
+                            <li>
+                                <p>08/05 - 14/05</p>
+                            </li>
+                            <li>
+                                <p>08/05 - 14/05</p>
+                            </li>
+                            <li>
+                                <p>08/05 - 14/05</p>
+                            </li>
+                            <li>
+                                <p>08/05 - 14/05</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h6>Junho</h6>
+                        <ul class="list-days">
+                            <li>
+                                <p>08/05 - 14/05</p>
+                            </li>
+                            <li>
+                                <p>08/05 - 14/05</p>
+                            </li>
+                            <li>
+                                <p>08/05 - 14/05</p>
+                            </li>
+                            <li>
+                                <p>08/05 - 14/05</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
