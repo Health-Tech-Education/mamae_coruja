@@ -206,6 +206,7 @@ body {
 .defaultBlue {
     display: flex;
     flex-direction: column;
+    width: 100%;
     max-width: 1480px;
     margin: auto;
     color: #fff;
@@ -365,9 +366,9 @@ footer {
     }
 
     .sectionMedia {
-        width: 550px;
+        width: fit-content;
         height: 380px;
-        margin: 30px;
+        margin: 30px 0;
         padding: 20px;
         justify-content: center;
     }
@@ -399,14 +400,16 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 100%;
         margin: auto;
         background-image: none;
     }
 
     .backgroundMainBlue {
-        width: 600px;
+        width: 100%;
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .sectionImgCartao {
@@ -451,6 +454,10 @@ footer {
         justify-content: space-evenly;
         margin-top: 20px;
     }
+
+    .video {
+        width: 100%;
+    }
 }
 
 /* responsive footer and nav-bar */
@@ -491,7 +498,7 @@ footer {
     }
 
     .sectionImg {
-        width: 470px;
+        width: 100%;
         height: 500px;
         padding: 15px;
         display: flex;
@@ -499,7 +506,7 @@ footer {
         justify-content: center;
     }
     .imgRede {
-        width: 470px;
+        width: 100%;
         height: 500px;
     }
 }
