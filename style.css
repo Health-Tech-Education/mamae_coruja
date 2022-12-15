@@ -136,6 +136,8 @@ body {
 
 .backgroundMainLight {
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 50px;
     margin-top: 50px;
 }
@@ -182,18 +184,25 @@ body {
 }
 
 .sectionMedia {
-    width: 600px;
-    height: 480px;
+    width: 450px;
+    height: fit-content;
     margin: 0px;
     padding-bottom: 0px;
 }
 
 .video {
     padding: 15px;
+    width: 120%;
 }
 
 .sectionImg {
     margin-right: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.sectionImg img {
+    width: 80%;
 }
 
 .backgroundMain2{
@@ -215,6 +224,7 @@ body {
 .backgroundMainBlue {
     display: flex;
     margin-top: 100px;
+    justify-content: center;
     margin-bottom: 60px;
 }
 
